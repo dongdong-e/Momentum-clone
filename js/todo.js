@@ -11,7 +11,13 @@ function handleSubmit(event) {
   toDoInput.value = "";
 }
 
+let toDos = [];
+
 function paintTodo(text) {
+  if (toDos.length > 4) {
+    alert("You just add 5 TO-DO lists.");
+    return false;
+  }
   const li = document.createElement("li");
   const delBtn = document.createElement("button");
   const span = document.createElement("span");
@@ -31,9 +37,6 @@ function paintTodo(text) {
   saveToDos();
 }
 
-
-let toDos = [];
-
 function deleteToDo(event) {
   const btn = event.target;
   const li = btn.parentNode;
@@ -51,7 +54,6 @@ function deleteToDo(event) {
 function saveToDos() {
   localStorage.setItem(TODOS_LOCAL_STORAGE, JSON.stringify(toDos));
 }
-
 
 function loadToDos() {
   const loadToDos = localStorage.getItem(TODOS_LOCAL_STORAGE);
