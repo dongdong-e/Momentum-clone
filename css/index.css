@@ -6,6 +6,7 @@
   font-family: "Wallpoet", cursive;
   color: #b4ce85;
   font-size: 50px;
+  letter-spacing: 15px;
   padding-top: 50px;
   display: flex;
   justify-content: center;
@@ -40,7 +41,12 @@ input[type="text"] {
   padding-bottom: 20px;
 }
 
+h1 {
+  padding-bottom: 20px;
+}
+
 div .js-toDoForm {
+  padding-top: 30px;
   padding-bottom: 10px;
   display: flex;
   justify-content: center;
@@ -107,6 +113,7 @@ body {
 
 .greetings {
   font-size: 30px;
+  letter-spacing: 5px;
   display: none;
 }
 
