@@ -1,7 +1,7 @@
 /* import text */
 @import url("https://fonts.googleapis.com/css?family=Black+Ops+One|Fredericka+the+Great|Monoton|Press+Start+2P|Wallpoet&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Abel|Amatic+SC:400,700|Courgette|Josefin+Sans:400,700|Kanit:400,700|Luckiest+Guy|Modak|Oswald:400,700|Patrick+Hand|Russo+One|Turret+Road&display=swap");
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Baloo+Bhai|Concert+One|Fredoka+One|Rajdhani|Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Baloo+Bhai|Concert+One|Fredoka+One|Jua|Rajdhani|Righteous&display=swap');
 
 .js-date {
   line-height: 0.5em;
@@ -41,7 +41,7 @@
 } */
 
 input[type="text"] {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Jua', sans-serif;
   /* border: 1px solid;
   text-align: center;
   width: 250px; */
@@ -77,7 +77,7 @@ div .js-toDoForm {
 }
 
 div .js-toDoList {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Jua', sans-serif;
   /* background-color:#000000; */
   background: rgba(0, 0, 0, 0.6);
   color: white;
@@ -97,7 +97,7 @@ div .js-toDoList {
 }
 
 ul li {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Jua', sans-serif;
   font-size: 20px;
   padding-right: 40px;
 }
@@ -165,7 +165,7 @@ button {
   color: #fff;
   border: none;
   position: relative;
-  height: 20px;
+  height: 25px;
   font-size: 0.8em;
   padding: 0.2em;
   cursor: pointer;
