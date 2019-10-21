@@ -2,7 +2,34 @@
 @import url("https://fonts.googleapis.com/css?family=Black+Ops+One|Fredericka+the+Great|Monoton|Press+Start+2P|Wallpoet&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Abel|Amatic+SC:400,700|Courgette|Josefin+Sans:400,700|Kanit:400,700|Luckiest+Guy|Modak|Oswald:400,700|Patrick+Hand|Russo+One|Turret+Road&display=swap");
 
-.js-clock {
+.js-date {
+  line-height: 0.5em;
+}
+
+.js-date .date {
+  font-family: "Wallpoet", cursive;
+  color: #f7f7f7;
+  font-size: 25px;
+  text-shadow: -1px 0 #B88320, 0 1px #B88320, 1px 0 #B88320, 0 -1px #B88320;
+  letter-spacing: 15px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-date .time {
+  font-family: "Wallpoet", cursive;
+  color: #B88320;
+  font-size: 100px;
+  letter-spacing: 15px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* div .js-clock {
   font-family: "Wallpoet", cursive;
   color: #b4ce85;
   font-size: 50px;
@@ -11,7 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 input[type="text"] {
   font-family: "Oswald", sans-serif;
@@ -41,10 +68,6 @@ input[type="text"] {
   padding-bottom: 20px;
 }
 
-h1 {
-  padding-bottom: 20px;
-}
-
 div .js-toDoForm {
   padding-top: 30px;
   padding-bottom: 10px;
@@ -55,11 +78,12 @@ div .js-toDoForm {
 
 div .js-toDoList {
   font-family: "Oswald", sans-serif;
+  /* background-color:#000000; */
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
 }
 
 .info_weather {
@@ -113,13 +137,14 @@ body {
 
 .greetings {
   font-size: 30px;
+  text-shadow: -1px 0 #B88320, 0 1px #B88320, 1px 0 #B88320, 0 -1px #B88320;
   letter-spacing: 4px;
   display: none;
 }
 
 .showing {
   font-family: "Oswald", sans-serif;
-  color: #d2dae2;
+  color: #f7f7f7;
   margin-bottom: 40px;
   margin-top: -45px;
   display: block;
@@ -145,7 +170,7 @@ body {
 }
 
 button {
-  background: #b4ce85;
+  background: #B88320;
   color: #fff;
   border: none;
   position: relative;
@@ -168,7 +193,7 @@ button:after {
   right: 0;
   height: 2px;
   width: 0;
-  background: #b4ce85;
+  background: #B88320;
   transition: 400ms ease all;
 }
 button:after {
