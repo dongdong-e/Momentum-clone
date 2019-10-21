@@ -87,7 +87,7 @@ div .js-toDoList {
 }
 
 .info_weather {
-  color: white;
+  color: black;
   font-family: "Fredoka One", cursive;
   display: flex;
   justify-content: center;
