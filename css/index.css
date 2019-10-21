@@ -110,15 +110,6 @@ span {
   padding-right: 10px;
 }
 
-/* .js-clock,
-.js-toDoForm,
-.js-toDoList,
-.name_input {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .btn {
   cursor: pointer;
 }
