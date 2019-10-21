@@ -14,8 +14,8 @@ function handleSubmit(event) {
 let toDos = [];
 
 function paintTodo(text) {
-  if (toDos.length > 4) {
-    alert("You just add 5 TO-DO lists.");
+  if (toDos.length > 10) {
+    alert("You just add 10 TO-DO lists.");
     return false;
   }
   const li = document.createElement("li");

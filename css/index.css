@@ -1,16 +1,16 @@
 /* import text */
 @import url("https://fonts.googleapis.com/css?family=Black+Ops+One|Fredericka+the+Great|Monoton|Press+Start+2P|Wallpoet&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Abel|Amatic+SC:400,700|Courgette|Josefin+Sans:400,700|Kanit:400,700|Luckiest+Guy|Modak|Oswald:400,700|Patrick+Hand|Russo+One|Turret+Road&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Baloo+Bhai|Concert+One|Fredoka+One|Rajdhani|Righteous&display=swap');
 
 .js-date {
   line-height: 0.5em;
 }
 
 .js-date .date {
-  font-family: "Wallpoet", cursive;
-  color: #f7f7f7;
+  font-family: 'Fredoka One', cursive;
+  color: #404040;
   font-size: 25px;
-  text-shadow: -1px 0 #B88320, 0 1px #B88320, 1px 0 #B88320, 0 -1px #B88320;
   letter-spacing: 15px;
   padding-top: 60px;
   display: flex;
@@ -19,8 +19,8 @@
 }
 
 .js-date .time {
-  font-family: "Wallpoet", cursive;
-  color: #B88320;
+  font-family: 'Fredoka One', cursive;
+  color: #000000;
   font-size: 100px;
   letter-spacing: 15px;
   padding-bottom: 40px;
@@ -41,7 +41,7 @@
 } */
 
 input[type="text"] {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Fredoka One', cursive;
   /* border: 1px solid;
   text-align: center;
   width: 250px; */
@@ -77,7 +77,7 @@ div .js-toDoForm {
 }
 
 div .js-toDoList {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Fredoka One', cursive;
   /* background-color:#000000; */
   background: rgba(0, 0, 0, 0.6);
   color: white;
@@ -88,7 +88,7 @@ div .js-toDoList {
 
 .info_weather {
   color: white;
-  font-family: "Courgette", cursive;
+  font-family: 'Fredoka One', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,7 +97,7 @@ div .js-toDoList {
 }
 
 ul li {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Fredoka One', cursive;
   font-size: 20px;
   padding-right: 40px;
 }
@@ -137,14 +137,13 @@ body {
 
 .greetings {
   font-size: 30px;
-  text-shadow: -1px 0 #B88320, 0 1px #B88320, 1px 0 #B88320, 0 -1px #B88320;
   letter-spacing: 4px;
   display: none;
 }
 
 .showing {
-  font-family: "Oswald", sans-serif;
-  color: #f7f7f7;
+  font-family: 'Fredoka One', cursive;
+  color: #404040;
   margin-bottom: 40px;
   margin-top: -45px;
   display: block;
@@ -170,7 +169,8 @@ body {
 }
 
 button {
-  background: #B88320;
+  font-family: 'Fredoka One', cursive;
+  background: #f7f7f7;
   color: #fff;
   border: none;
   position: relative;
@@ -193,7 +193,7 @@ button:after {
   right: 0;
   height: 2px;
   width: 0;
-  background: #B88320;
+  background: #404040;
   transition: 400ms ease all;
 }
 button:after {
