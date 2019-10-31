@@ -1,0 +1,27 @@
+{
+  "name": "momentum-clone",
+  "version": "1.0.0",
+  "description": "-  https://dongdong-e.github.io/momentum-clone/",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongdong-e/momentum-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongdong-e/momentum-clone/issues"
+  },
+  "homepage": "https://github.com/dongdong-e/momentum-clone#readme"
+}
